@@ -1,0 +1,39 @@
+/* app/dogs/dog-card.module.css */
+.dogCard {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 16px;
+    transition: all 0.3s ease;
+}
+
+.dogCard:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.presentDog {
+    border-color: green;
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.absentDog {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.dogImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dogName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.dogDetails {
+    margin-top: 8px;
+}

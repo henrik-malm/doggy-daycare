@@ -1,0 +1,13 @@
+html {
+  background-color: rgb(245, 214, 175);
+}
+
+.presentDog {
+  border-color: green;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.absentDog {
+  border-color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}

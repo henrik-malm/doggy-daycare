@@ -1,0 +1,27 @@
+:root {
+  --background: #30442a;
+  --foreground: #f7f7f7;
+}
+
+
+html,
+body {
+  max-width: 30rem;
+  max-height: 60rem;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
